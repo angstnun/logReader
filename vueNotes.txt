@@ -1,0 +1,8 @@
+Notes on Vue
+
+In React, everything is just JavaScript. Not only are HTML structures expressed via JSX, the recent trends also tend to put CSS management inside JavaScript as well.
+This approach has its own benefits, but also comes with various trade-offs that may not seem worthwhile for every developer.
+Vue embraces classic web technologies and builds on top of them. To show you what that means, we’ll dive into some examples.
+
+Vue does not support IE8 and below, because it uses ECMAScript 5 features that are un-shimmable in IE8. However it supports all ECMAScript 5 compliant browsers.
+
